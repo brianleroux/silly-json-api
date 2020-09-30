@@ -1,1 +1,1 @@
-exports.handler = async => ({ silly: true })
+exports.handler = async function() { return { silly: true } }
